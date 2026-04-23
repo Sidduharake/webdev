@@ -1,0 +1,65 @@
+/*  
+h1 {
+    color:  rgb(103, 216, 160);
+
+}
+p {
+    color: darkviolet;
+}
+button {
+    color: rgb(194, 255, 192);
+}
+body {
+    background-color: white;
+}
+
+div {
+    background-color: blue;
+}
+button {
+    background-color:black ;
+}*/
+
+p {
+    text-align: left ;
+    font-weight: 1000;
+    font-family: arial;
+}
+h1 {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    background-color: darkgreen;
+}
+body{
+   background-color:  red;
+}
+
+
+/* unit in css...
+           (pixels)*/
+  
+           #one{
+          font-size: 20px;  
+           }
+           #two{
+            font-size: 40px;
+           }
+           #three{
+            font-size: 30px;
+           }
+
+p{
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+/*box model(height,width ,badding,border)*/
+div{
+     height: 100px;
+     width: 100px;
+     color: white;
+    background-color: black;
+    border-width: 10px;
+    border-style: solid;
+}
