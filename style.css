@@ -19,7 +19,7 @@ div {
 button {
     background-color:black ;
 }*/
-
+/*
 p {
     text-align: left ;
     font-weight: 1000;
@@ -34,10 +34,10 @@ h1 {
 body{
    background-color:  red;
 }
-
+/*
 
 /* unit in css...
-           (pixels)*/
+           (pixels)
   
            #one{
           font-size: 20px;  
@@ -54,7 +54,7 @@ p{
     text-transform: capitalize;
 }
 
-/*box model(height,width ,badding,border)*/
+/*box model(height,width ,badding,border)
 div{
      height: 100px;
      width: 100px;
@@ -62,4 +62,40 @@ div{
     background-color: black;
     border-width: 10px;
     border-style: solid;
+}
+*/
+/* border designing */
+/*div{
+   /* background-color: rgb(58, 173, 43);
+    text-decoration-style: solidS;
+    width: 100px;
+    height: 100px;
+    border: solid rgb(255, 0, 0) 2px;
+    /*border-radius: 10px;*/
+   /* padding: 50px 20px 30px 20px;
+    margin-top: 10px;*/
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+div {
+    height: 60px;
+    background-color: black;
+    
+}
+button {
+    background-color: yellow;
+
+
+}
+#logo {
+    color: rgb(255, 102, 0);
+    font-size: 25px;
+}
+a {
+    margin-right: 190px;
+    text-decoration: none;
 }
