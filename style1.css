@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+header{
+    height: 40px;
+
+}
+div{
+    background-color: rgba(17, 3, 3, 0.973);
+    height: 40px;
+    
+}
+button{
+    background-color: yellow;
+}
+#logo{
+    color: orange;
+    font-size: 20px;
+}
+a{
+    margin-right: 190px;
+    text-decoration: none;
+}
+
+
+.content {
+    
+    display: flex;
+    gap: 10px;
+    margin-top: 100px;
+    background-color: white;
+
+}
+.ab{
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    border: 2px black solid ;
+}
+footer{
+    margin-top: 300px;
+    background-color: black;
+    color:white;
+    text-align: center;
+} 
+
+
