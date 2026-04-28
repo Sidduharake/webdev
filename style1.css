@@ -1,4 +1,4 @@
-*{
+/*{
     margin: 0;
     padding: 0;
     color: white;
@@ -49,3 +49,50 @@ footer{
 } 
 
 
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 20px;
+}
+#box2{
+    height: 60px;
+    width: 60px;
+    margin-left: 30%;
+    background-color: red;
+    align-content: center;
+
+}
+*/
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px black solid;
+    display: inline-block;
+}
+/*
+#box1{
+    position: static;
+    
+}
+#box2{
+    position: relative;
+   
+    top: 10px;
+}
+#box3{
+    position: absolute;
+    top: 500px;
+    left: 10px;
+}
+#box4{
+    position: fixed;
+    top: 0px;
+}
+*/
+#box1{
+    background-image: url("flower.jpg");
+    background-size: cover;
+    
+}
