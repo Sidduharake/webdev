@@ -91,8 +91,46 @@ div{
     top: 0px;
 }
 */
+/*
 #box1{
     background-image: url("flower.jpg");
     background-size: cover;
     
+}
+*/
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    display: inline-block;
+    
+}
+#container{
+    justify-content: center;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    align-content: first baseline;
+#box1{
+     background-color: green;
+}
+#box2{
+    background-color: pink;
+    height: 200px;
+    flex-grow: 1;
+}
+#box3{
+    background-color: burlywood;
+}
+#box4{
+    background-color: red;
+}
+#box5{
+    background-color: blue;
 }
