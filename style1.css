@@ -23,6 +23,7 @@ button{
 a{
     margin-right: 190px;
     text-decoration: none;
+    color: white;
 }
 
 
@@ -34,6 +35,7 @@ a{
     background-color: white;
 
 }
+/*
 .ab{
     width: 100px;
     height: 100px;
@@ -64,14 +66,14 @@ footer{
 
 }
 */
-div{
+/*div{
     height: 100px;
     width: 100px;
     background-color: aqua;
     border: 2px black solid;
     display: inline-block;
 }
-/*
+
 #box1{
     position: static;
     
@@ -98,6 +100,8 @@ div{
     
 }
 */
+/*
+
 body{
     text-align: center;
 }
@@ -133,4 +137,63 @@ div{
 }
 #box5{
     background-color: blue;
+}*/
+/*
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    
+}
+li{
+    list-style-type: none;
+    display: inline;
+    
+}
+.outer{
+    background-color: green;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center; /*for align horizontal*/
+    /*align-items : center; */    /*for align vertical
+
+.inner{
+    background-color:yellow;
+    height:200px;
+    width: 200px;
+}
+*/
+/*media query*/
+
+div{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
+@media(min-width:600px){
+    div{
+        background-color: blue;
+    }
+}
+@media(max-width:300px){
+    div{
+        background-color: green;
+    }
+}
+@media(min-width:300px) and (max-width:400px){
+    div{
+        background-color: pink;
+    }
+}
+@media(min-width:400px) and (max-width:600px){
+    div{
+        background-color: red;
+    }
 }
