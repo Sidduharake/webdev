@@ -1,0 +1,49 @@
+/*div{
+    background-color: green;
+    border: 2px black solid;
+    height: 100px;
+    width: 100px;
+   position: absolute;
+   text-align: center;
+   position: absolute;
+   top: 100px;
+   left: 100px;
+   animation: coloranimate 2s ease-in 0s infinite normal ;
+
+}
+@keyframes coloranimate {
+    0% {
+        left: 0px;
+        background-color: yellow;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        left: 200px;
+        background-color: red;
+        color: white;
+    }
+}
+div:hover{
+
+}*/
+
+.loader{
+    height: 200px;
+    width:200px ;
+    border-radius: 50%;
+    border: 20px solid yellow;
+    border-top: 20px solid lightblue;
+    animation: spinaniminate 1s ease-in 0s infinite normal;
+    
+}
+@keyframes spinaniminate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
+}
